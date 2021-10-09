@@ -1,0 +1,51 @@
+@media  (min-width:500px) and (max-width:768px){
+    nav{
+        
+        padding: 2px 5px;
+        width: 70vw;
+    }
+
+header{
+    width: 100vh;
+}
+.social{
+    margin:-30px;
+}
+
+.meio{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+
+}
+.meiobox{
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.mbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: right;
+    margin-left: 100px;
+    margin-bottom: 150px;
+
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display:flex;
+    flex-direction: column;
+}
+.imgCorpotativ{
+    margin-bottom: 10px;
+}
+}
