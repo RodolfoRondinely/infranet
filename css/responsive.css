@@ -1,17 +1,40 @@
-@media  (min-width:500px) and (max-width:719px){
-    nav{
-        
-        padding: 2px 5px;
-        width: 70vw;
+:root{
+    --purple:#8D31B9;
+}
+@media (max-width:800px){
+    header{
+        display: flex;
+        justify-content: space-between;
     }
+    header a{
+        display: flex;
+        justify-content: space-between;
 
-header{
-    width: 100vh;
+        font-size: .9rem;
+    }
+    nav{
+        width: 100vw;
+        margin: 0;
+    margin-left: -20px;
+
+    }
+.logo img{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+}
+.navmenus ul li{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    font-size: .8rem;
+    object-fit: contain;
 }
 .social{
-    margin:-30px;
+display: flex;
+flex-direction: column;
 }
-
 .meio{
     width: 100vw;
     display: flex;
@@ -19,10 +42,28 @@ header{
 
 }
 .meiobox{
-    width: 100vw;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background: none;
+    background-color: var(--purple);
+
+}
+.mbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.meiobox h2{
+    font-size: 2rem;
+    padding-right: 30px;
+}
+.meiobox img{
+    margin: 0;
+    height: 70vh;
+    border-radius: 10%;
 }
 .mbox{
     display: flex;
@@ -48,4 +89,108 @@ main{
 .imgCorpotativ{
     margin-bottom: 10px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer p{
+    display: none;
+}
+footer .social{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+footer .social:hover{
+    margin-right: 30px;
+}
+footer ul li:hover{
+    background-color: aliceblue;
+    color: blue;
+    padding: 5px;
+}
+}
+@media (max-width:700px){
+  
+    nav{
+        display: flex;
+    }
+    nav .logo img{ 
+        width: 200px;
+        height: 100px;
+    }
+    nav .navmenus{
+        display: flex;
+        height: 40px;
+    }
+    nav .navmenus ul{
+        display: inline-block;
+        flex-direction: column;
+        width: 100%;        
+    }
+    nav .navmenus ul li{
+        display: inline-block;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    nav .social{
+        margin-left: -30px;
+    }
+.slide h1{
+    display:none;
+}
+}
+@media (max-width:600px){
+    body{
+        max-width: 600px;
+        object-fit: cover;
+    }
+    header{
+        display: none;
+    }
+    nav {
+        display: flex;
+        align-items: flex-start;
+        background-color: rgba(1,10,143,.3);
+        height: 0vh;
+        margin-bottom: 100px;
+        width: 500px;
+    }
+    .logo{
+        position: relative;
+    }
+    .ham{
+         display: flex;
+        position:absolute;
+         margin: 20px 0 20px 345px ;
+    }
+    .navmenus{
+        display: flex;
+
+        margin:100px 0 5px 140px;
+
+    }
+    .social{
+        display: none;
+    }
+    .social img{
+
+        margin-left: 5px;
+        
+    }
+    .banner .bannerimg{
+        display: none;
+      
+    }
+    .bannerResposive {
+        display:flex;
+        width: 600px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+   
+    footer ul{
+        margin:10px;
+    }
 }

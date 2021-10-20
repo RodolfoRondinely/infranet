@@ -47,6 +47,8 @@ nav{
     margin: 0 30px;
     align-items: center;
 
+    transition: 1s ease-in-out;
+
 }
 .logo img{
     width: 210px;
@@ -215,6 +217,14 @@ p{
     border-radius: 15px;
     
 }
+ul li:hover{
+    color:white;
+    background-color: rgb(46, 82, 179);
+    transition: 1s ease-in-out;
+    border-radius: 15px;
+    height: -120px;
+    padding: 25px 15px ;
+}
 .price1:hover{
     background-color: rgb(206, 228, 208);
     height: 390px;
@@ -256,7 +266,25 @@ footer .social{
     margin: auto;
 }
 
+.ham{
+    display: none;
+    flex-direction: column;
+}
+.hamdivs{
+    width: 100px;
+    height: 15px;
+    background-color:whitesmoke;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    align-items: flex-end;
+    
+    
 
+}
+.bannerResposive{
+    display: none;
+}
 
 
 
