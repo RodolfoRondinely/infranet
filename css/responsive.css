@@ -145,6 +145,8 @@ footer ul li:hover{
     body{
         max-width: 600px;
         object-fit: cover;
+       
+
     }
     header{
         display: none;
@@ -181,13 +183,25 @@ footer ul li:hover{
     }
     .banner .bannerimg{
         display: none;
+        max-width: 400px;
+        object-fit: cover;
       
     }
-    .bannerResposive {
-        display:flex;
-        width: 600px;
-        object-fit: cover;
-        overflow: hidden;
+    .bannerResposive{
+        display: flex;
+    }
+    .bannerResposive img{
+       width: 555px;
+    }
+    .mbox{
+        margin:auto;
+    }
+    .mbox h2{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .meio h1{
+        font-family: 'Times New Roman', Times, serif;
     }
    
     footer ul{
